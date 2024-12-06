@@ -35,7 +35,7 @@ export class ProjectsComponent {
       name: 'Portfolio',
       description: 'A responsive portfolio showcasing my skills, projects, and professional experience.',
       image: '/images/portfolio.png',
-      link: 'https://my-portfolio.example.com',
+      link: 'https://my-portfolio-lilac-gamma.vercel.app/',
       technologies: ['Angular', 'CSS', 'HTML', 'TypeScript']
     }
   ];
