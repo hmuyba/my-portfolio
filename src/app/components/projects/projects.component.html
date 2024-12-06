@@ -1,0 +1,14 @@
+<div class="projects-container">
+  <h2>My Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card" *ngFor="let project of projects">
+      <img [src]="project.image" alt="{{ project.name }}" />
+      <h3>{{ project.name }}</h3>
+      <p [innerHTML]="project.description"></p>
+      <ul class="tech-list">
+        <li *ngFor="let tech of project.technologies">{{ tech }}</li>
+      </ul>
+      <a [href]="project.link" target="_blank" class="project-link">View Project</a>
+    </div>
+  </div>
+</div>
